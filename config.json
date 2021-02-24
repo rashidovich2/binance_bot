@@ -1,0 +1,40 @@
+{
+    "api_key": "0tZ2uS7fqBZZsx6bxUwXTstryUzvcxdpkvRKDiUp0TJaFZpgSfiCYRWaBP5xRZWq",
+    "secret_key": "zRNkuIjduvLfFOvytfsttDUET5Gnr4v0TzGbA7fXKg76CxSA0MQUMFXjbYuCy4dB",
+    "pairs": [
+        {
+            "quote": "BTC",
+            "base": "DOT",
+	    "macd_fast_period": 12,
+	    "macd_slow_period": 26,
+	    "macd_signal_period": 9,
+ 	    "macd_interval": "5m",
+            "rk_str_intreval": "5m",
+	    "rk_str_limit": 10,
+            "spending_sum": 0.002,
+            "profit": 0.03
+        },
+        {
+            "quote": "BTC",
+            "base": "DOGE",
+	    "macd_fast_period": 12,
+	    "macd_slow_period": 26,
+	    "macd_signal_period": 9,
+ 	    "macd_interval": "5m",
+            "rk_str_intreval": "5m",
+	    "rk_str_limit": 3,
+            "spending_sum": 0.00002,
+            "profit": 0.02
+        }
+    ],
+    "spending_system": "dynamic",
+    "buy_strategy": "dynamic_klines",
+    "sell_strategy": "scalping",
+    "buy_life_time_sec": 300,
+    "clear_logs": true,
+    "clear_db": true,
+    "use_bnb_fees": true,
+    "macd_bull_perc": 99,
+    "macd_bear_perc": 0,
+    "stochrsi_perc": 25
+}
